@@ -4,7 +4,7 @@ import { BaselimeTransport } from '../dist/index.js';
 const logger = winston.createLogger({
     transports: [
         new BaselimeTransport({
-            baselimeApiKey: '72df1af98c1b3852c87d5cfadd21ef5d78276ca9'
+            baselimeApiKey: ''
         })
     ]
 })
