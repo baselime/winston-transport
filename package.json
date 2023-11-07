@@ -1,10 +1,19 @@
 {
   "name": "@baselime/winston-transport",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ship logs from winston to Baselime",
   "main": "dist/index.js",
   "type": "module",
-  "keywords": ["Winston", "Query", "Baselime", "Transport", "HTTP", "Keys", "Logs", "JSON"],
+  "keywords": [
+    "Winston",
+    "Query",
+    "Baselime",
+    "Transport",
+    "HTTP",
+    "Keys",
+    "Logs",
+    "JSON"
+  ],
   "exports": {
     "import": "./dist/index.js",
     "require": "./dist/index.cjs"
