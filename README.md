@@ -1,5 +1,6 @@
 # winston-transport
-Ship logs from winston to baselime
+
+Send logs from winston to baselime
 
 ## Installation
 

@@ -4,6 +4,7 @@
   "description": "Ship logs from winston to Baselime",
   "main": "dist/index.js",
   "type": "module",
+  "keywords": ["Winston", "Query", "Baselime", "Transport", "HTTP", "Keys", "Logs", "JSON"],
   "exports": {
     "import": "./dist/index.js",
     "require": "./dist/index.cjs"
@@ -15,6 +16,10 @@
     "build": "tsup",
     "test": "vitest",
     "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baselime/winston-transport.git"
   },
   "author": "Thomas Ankcorn",
   "license": "MIT",
